@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ml-proto"
+version = "0.1.0"
+description = ""
+authors = ["ziegnes <2195609+jingz-dev@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.3.0"
+torchvision = "^0.18.0"
+torchaudio = "^2.3.0"
+pandas = "^2.2.2"
+matplotlib = "^3.9.0"
+scikit-learn = "^1.5.0"
+scipy = "^1.13.1"
+ipynb = "^0.5.1"
+numpy = "^1.26.4"
+tqdm = "^4.66.4"
+ipykernel = "^6.29.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
